@@ -30,7 +30,7 @@ Partial Class Form1
         ' 
         ' cmdEjecutar
         ' 
-        cmdEjecutar.Location = New Point(42, 205)
+        cmdEjecutar.Location = New Point(12, 123)
         cmdEjecutar.Name = "cmdEjecutar"
         cmdEjecutar.Size = New Size(94, 29)
         cmdEjecutar.TabIndex = 0
@@ -40,7 +40,7 @@ Partial Class Form1
         ' lblMenor
         ' 
         lblMenor.AutoSize = True
-        lblMenor.Location = New Point(25, 17)
+        lblMenor.Location = New Point(12, 17)
         lblMenor.Name = "lblMenor"
         lblMenor.Size = New Size(134, 20)
         lblMenor.TabIndex = 1
@@ -49,7 +49,7 @@ Partial Class Form1
         ' lblMayor
         ' 
         lblMayor.AutoSize = True
-        lblMayor.Location = New Point(24, 66)
+        lblMayor.Location = New Point(13, 46)
         lblMayor.Name = "lblMayor"
         lblMayor.Size = New Size(133, 20)
         lblMayor.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class Form1
         ' lblSuma
         ' 
         lblSuma.AutoSize = True
-        lblSuma.Location = New Point(22, 115)
+        lblSuma.Location = New Point(12, 75)
         lblSuma.Name = "lblSuma"
         lblSuma.Size = New Size(46, 20)
         lblSuma.TabIndex = 3
@@ -68,7 +68,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(379, 210)
         Controls.Add(lblSuma)
         Controls.Add(lblMayor)
         Controls.Add(lblMenor)
